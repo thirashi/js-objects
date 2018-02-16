@@ -251,7 +251,22 @@ console.log(printOrders(arrayOfObjects));
         to inspect your results.
 */
 
+var sumObj = {
+  a: 5,
+  b: 7,
+  result: undefined,
+}
 
+
+function objectAddition(object){
+
+object.result = object.a+object.b;
+
+return object;
+
+}
+
+console.log(objectAddition(sumObj));
 /*
 9. Print sum function and add as new key-value
    Declare a new function named printObj and a single parameter which will be the object from the challenge just above. 
