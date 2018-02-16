@@ -351,8 +351,18 @@ console.log(detectingTransmission(stockCar));
  */
 
 
+function addDriver(obj, per) {
+
+obj.driver = per;
+
+return obj;
 
 
+}
+
+
+
+console.log(addDriver(stockCar, plainPerson));
 /*
     #Final Boss
     The Dev League instructors want to ride your whip!
