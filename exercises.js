@@ -305,6 +305,13 @@ console.log(printObj(sumObj));
 
         Invoke your function and pass in your object (which should be `plainBox`), store the result to a variable named 
         plainBoxResult and use `console.log` to inspect your results.
+
+function putInPlainBox(object){
+  for (var i = 0; i<10; i++){
+
+
+  }
+}
  */
 
 
@@ -318,7 +325,18 @@ console.log(printObj(sumObj));
 
     Invoke your function and pass in your stockCar object, store the result to a variable named isAutomaticTransmission and use `console.log` to inspect your results.
  */
+ function detectingTransmission(object){
+  if (object.automaticTransmission === true){
+    return "The best kind of transmission :).";
+  }
+else {
 
+  return "Too much work!";
+}
+
+ }
+
+console.log(detectingTransmission(stockCar));
 
 /*
 12.  Who's driving this thing?!
