@@ -12,9 +12,17 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     - add a key named `pages` and number value of 200
     
     Console.log the object.
+    sdas
 */
-    
-  
+    var book = {
+      title: "The obstacle is the way",
+      author: "Ryan Holiday",
+      category: "Self Help",
+      pages: 200,
+    }
+
+    console.log(book)
+
 /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
    
